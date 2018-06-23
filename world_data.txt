@@ -1,0 +1,15 @@
+nb 30
+un Adam
+ux 8
+uy 16
+nd 3
+uc 450
+d1 A
+dx 1
+dy 1
+d2 B
+dx 21
+dy 21
+d3 C
+dx 30
+dy 30

@@ -1,0 +1,21 @@
+world_data.txt (initial data for building class World)
+FORMAT:
+{n board}
+{user x}
+{user y}
+{n driver}
+{driver 1 x}
+{driver 1 y}
+..
+{driver n x}
+{driver n y}
+{unit cost}
+
+The data of world_data.txt format are the abbreviations/variables of the actual data. It were designed so that developers could write the data correctly and could be loaded on the program easier.
+
+----------------------------------------
+user_log.txt (record user order history)
+FORMAT:
+{initial location x}{initial location y}{destination x}{destination y}{total steps}{total price}
+
+As user_log.txt cannot be accessed by the user directly, we encrypt the format so it is hard to read whereas minimizing access and data editing. The actual format could be seen on the program.
